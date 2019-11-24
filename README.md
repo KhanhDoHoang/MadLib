@@ -8,7 +8,9 @@ Making a word game
  
  
 import java.util.Scanner;
+
 public class Do_Hoang_MadLib {
+
 	public static String noun1;
 	public static String verb1;
 	public static String place1;
