@@ -1,9 +1,12 @@
 # MadLib
 Making a word game
+
 /*This program illustrates a MadLib
  * made by Do Hoang
  * ID course CST8110 section 320
  */
+ 
+ 
 import java.util.Scanner;
 public class Do_Hoang_MadLib {
 	public static String noun1;
@@ -17,26 +20,37 @@ public class Do_Hoang_MadLib {
 	public static String noun2;
 	private static String userName;
 	public static void main (String [] args) {
+		
 		Scanner input = new Scanner (System.in);
 		Do_Hoang_MadLib c = new Do_Hoang_MadLib();
+		
 		System.out.println(" What's your name? ");
 		c.userName = input.next();
+		
 		System.out.println("Could you give a noun? "+userName);
 		noun1 = input.next();
+		
 		System.out.println("Could you give me a verb? "+userName);
 		verb1 = input.next();
+		
 		System.out.println("Could you give me a place? "+ userName);
 		place1 = input.next();
+		
 		System.out.println("Could you give me an adjective? "+ userName);
 		adjective1 = input.next();
+		
 		System.out.println("Could you give me a verb wiht _ing? "+ userName);
 		verbIng1 = input.next();
+		
 		System.out.println("Could you give me a plural noun? "+ userName);
 		pluralNoun1 = input.next();
+		
 		System.out.println("Could you give me an animal? "+ userName);
 		animal = input.next();
+		
 		System.out.println("Could you give me an adjective? "+ userName);
 		adjective2 = input.next();
+		
 		System.out.println("Could you give me a noun? "+ userName);
 		noun2 = input.next();
 
