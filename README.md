@@ -1,37 +1,115 @@
-## Welcome to GitHub Pages
+# MadLib
+Making a word game
 
-You can use the [editor on GitHub](https://github.com/KhanhDoHoang/MadLib/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+/*This program illustrates a MadLib
+ * made by Do Hoang
+ * ID course CST8110 section 320
+ */
+ 
+ 
+`import java.util.Scanner;`
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+`public class Do_Hoang_MadLib {`
 
-### Markdown
+`public static String noun1;`
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+`public static String verb1;`
 
-```markdown
-Syntax highlighted code block
+`public static String place1;`
 
-# Header 1
-## Header 2
-### Header 3
+`public static String adjective1;`
 
-- Bulleted
-- List
+`public static String verbIng1;`
 
-1. Numbered
-2. List
+`public static String pluralNoun1;`
 
-**Bold** and _Italic_ and `Code` text
+`public static String animal;`
 
-[Link](url) and ![Image](src)
-```
+`public static String adjective2;`
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+`public static String noun2;`
 
-### Jekyll Themes
+`private static String userName;`
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/KhanhDoHoang/MadLib/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+`public static void main (String [] args) {`
+	
+`Scanner input = new Scanner (System.in);`
 
-### Support or Contact
+`Do_Hoang_MadLib c = new Do_Hoang_MadLib();`
+	
+`System.out.println(" What's your name? ");`
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+`c.userName = input.next();`
+
+`System.out.println("Could you give a noun? "+userName);`
+
+`noun1 = input.next();`
+		
+`System.out.println("Could you give me a verb? "+userName);`
+
+`verb1 = input.next();`
+		
+
+`System.out.println("Could you give me a place? "+ userName);`
+
+`place1 = input.next();`
+		
+
+`System.out.println("Could you give me an adjective? "+ userName);`
+
+`adjective1 = input.next();`
+		
+
+`System.out.println("Could you give me a verb wiht _ing? "+ userName);`
+
+`verbIng1 = input.next();`
+		
+
+`System.out.println("Could you give me a plural noun? "+ userName);`
+
+`pluralNoun1 = input.next();`
+		
+`System.out.println("Could you give me an animal? "+ userName);`
+
+`animal = input.next();`
+		
+
+`System.out.println("Could you give me an adjective? "+ userName);`
+
+`adjective2 = input.next();`
+		
+
+`System.out.println("Could you give me a noun? "+ userName);`
+		`noun2 = input.next();`
+
+
+`System.out.print("Now is summer time, you plan going to gym to have more ");`
+
+`System.out.println(noun1);`
+
+`System.out.println("Then "+verb1+" your friend to "+ place1 +" afterward.");`
+
+`System.out.print("And once per week, you visit some "+ adjective1);`
+
+`System.out.println(" places to meet new friends" +verbIng1+" about "+pluralNoun1+".");`
+
+`System.out.println("Also, you want to adopt a(n) "+animal+ " and name it numberOne. ");`
+
+`System.out.println("Onwards, you will have a new pet friend to play with you when being " +adjective2+" . ");`
+
+`System.out.println("Once day, you wake up and see a(n) "+noun2+ " lying next to you.");`
+
+`System.out.println("Maybe that is your pet.");`
+
+`}`
+
+`}`
+
+/**
+ * Now is summer time, you plan going to gym to have more __(n)__ . 
+ * Then __(v)__ your friend to __(place)__afterward.
+ * And once per week, you visit some __(ad)__ places to meet new friends __(v_ing)__ about __(plural noun)_. 
+ * Also, you want to adopt a(n) _(animal)_ and name it Java. 
+ * Onwards, you will have a new pet friend to play with you when being _(ad)__. 
+ * Once day, you wake up and see a(n) __(n)__lying next to you. Maybe that is your pet.  
+ */
